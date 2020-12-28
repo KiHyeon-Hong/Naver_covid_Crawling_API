@@ -1,0 +1,13 @@
+create table CovidInfo(
+  patientNow int,
+  examinationNow int,
+  releaseNow int,
+  deathNow int,
+  patientAdd int,
+  examinationAdd int,
+  releaseAdd int,
+  deathAdd int,
+  patientIn int,
+  patientOut int,
+  day datetime default sysdate(
+);
